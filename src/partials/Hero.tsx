@@ -10,20 +10,24 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Catherine</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
+          An upcoming Statistics graduate from Texas A&M{' '}
           <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
+            , an aspring data scientist,
           </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
+          life-long learner, ping-pong player, singer. I have experiences
+          interning at{' '}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://www.linkedin.com/company/linkedin/mycompany/verification/"
+          >
+            LinkedIn, IBM, and Nissan
           </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          as Data Science/Data Analytics intern.
         </>
       }
       avatar={
@@ -48,7 +52,7 @@ const Hero = () => (
               alt="Facebook icon"
             />
           </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/catherine-22/">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
